@@ -12,9 +12,21 @@ Insofe and provided it with the dataset, to create a fast and robust AI based mo
 They have provided you with the dataset that has the `is_fraud` column, which encodes the information whether a transaction was fraudulent or not. In this hackathon, you will now have to use this curated data to create a machine learning model that will be able to predict the `is_fraud` column.
 
 
-(II) STRATEGY/APPROACH : I have preprocessed the data, performed EDA,Data Prep, visualized the data and validated the insights ,Applied SMOTE for oversampling as the data is unbalanced and applied Logistic regression, Decision Tree Classifier, Random forest, GBM algorithms to predict the fraudulent transactions.
+(II) STRATEGY/APPROACH :i) Exploratory Data Analysis ii) ML Modelling iii) Recommendations and Implementation Strategies
 
-Evaluated the Model using F1 score as a metric and curated a submission file using the transaction no and the target attribute
+Exploratory analysis
+
+●Performed Exploratory Data Analysis using visualizations, numerical analysis, and describing the findings.
+● List down the insights/patterns observed from the visualizations
+● Explain the impact of the most important attributes on the target attribute
+observed from data visualizations.
+
+ML Modelling -
+●Created a robust fraud detection framework by engineering new features, tuning, and improving the baseline ML model performance.
+
+●Applied SMOTE for oversampling as the data is unbalanced and applied Logistic regression, Decision Tree Classifier, Random forest, GBM algorithms to predict the fraudulent transactions.
+
+●Evaluated the Model using F1 score as a metric and curated a submission file using the transaction no and the target attribute
 
 (III) TOOLS AND TECHNOLOGY STACK : Jupyter Notebooks, Google Colab , MS Excel, Python Scripting.
 
